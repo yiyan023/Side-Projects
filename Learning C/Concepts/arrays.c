@@ -2,6 +2,11 @@
 #include <stdlib.h>
 
 int main() {
-    int Numbers[] = {4, 6, 7, 8, 9};
-    printf("%d", Numbers[0]); /* should return 4*/
+    int Numbers[3][2] = {
+        {1, 2},
+        {3, 4},
+        {5, 6},
+    };
+
+    printf("%d", Numbers[1][1]); /* will return 4 */
 }
