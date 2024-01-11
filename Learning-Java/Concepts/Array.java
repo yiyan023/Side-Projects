@@ -13,5 +13,11 @@ public class Array {
         int[] numbers1 = { 1, 2, 3, 4, 5 };
         System.out.println(numbers1.length); //returns 5
         Arrays.sort(numbers1); //sorts the array in ascending order
+
+        // multi-dimensional arrays:
+        int[][] matrix = new int[2][3];
+        int[][] matrix2 = { {1, 2, 3}, {3, 4, 5} }; //create a matrix like this as well
+        matrix[0][0] = 1;
+        System.out.println(Arrays.deepToString(matrix2)); //return [[1, 0, 0], [0, 0, 0]]
     }
 }

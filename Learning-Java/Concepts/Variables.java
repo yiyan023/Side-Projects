@@ -20,5 +20,9 @@ public class Variables {
         // reference types 
         Date now = new Date();
         System.out.println(now); // returns current date
+
+        //constants -- add final in front of it
+        final double pi = 3.14; //will not be able to change after this
+        System.out.println(pi);
     }
 }
