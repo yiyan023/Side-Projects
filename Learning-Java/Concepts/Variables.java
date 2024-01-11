@@ -11,6 +11,11 @@ public class Variables {
         boolean Yes = true;
 
         System.out.println(age);
+        System.out.println(age2);
+        System.out.println(BMI);
+        System.out.println(Name);
+        System.out.println(Yes);
+        System.out.println(temperature);
 
         // reference types 
         Date now = new Date();
