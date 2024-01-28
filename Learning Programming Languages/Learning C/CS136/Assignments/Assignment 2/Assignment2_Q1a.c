@@ -45,6 +45,7 @@ void print_rectangles(void) {
   /* if (READ_INT_FAIL != width) {
     if (READ_INT_FAIL != height) {
       rectangle_finder(width, height);
+      print_rectangles();
     }
   } */
 }
