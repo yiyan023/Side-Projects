@@ -13,7 +13,11 @@
 // login ID: y84huang
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "cs136.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdbool.h>
+#include <assert.h>
 
 // nth_hailstone(int x, int n) returns the n-th Hailstone number of a given
 //   number x.

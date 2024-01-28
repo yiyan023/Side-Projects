@@ -13,7 +13,11 @@
 // login ID: y84huang
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "cs136.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdbool.h>
+#include <assert.h>
 
 // cs136_passed(assign_mrks, assign_cnt, style, midterm, final, quizzes)
 //   returns true if CS136 was passed, given the sum of all assignment marks
