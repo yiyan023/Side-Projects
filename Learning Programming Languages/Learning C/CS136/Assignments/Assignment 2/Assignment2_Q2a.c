@@ -29,12 +29,12 @@ void print_mean(int acc, int n) {
   //   "The mean is %d.\n"
   // your implementation goes here
   int num = read_int(); 
-  if (READ_INT_FAIL != num) {
+  /* if (READ_INT_FAIL != num) {
     print_mean(num + acc, n + 1);
   } else {
     int mean = acc / n;
     printf("The mean is %d.\n", mean);
-  }
+  } */
 }
 
 int main(void) {
