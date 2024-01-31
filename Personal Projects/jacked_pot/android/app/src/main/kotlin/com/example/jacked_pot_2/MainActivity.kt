@@ -1,4 +1,4 @@
-package com.example.jacked_pot
+package com.example.jacked_pot_2
 
 import io.flutter.embedding.android.FlutterActivity
 
