@@ -12,13 +12,10 @@
 // login ID: y84huang
 //////////////////////////////////////////////////////////////////////////////////////////
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <stdbool.h>
-#include <assert.h>
-
-/* int main(void) {
+#include "cs136.h"
+// void(main) will convert all characters from an input into shout case.
+// requires: the input must be a character
+int main(void) {
   char string = read_char(READ_WHITESPACE);
   
   while (string != READ_CHAR_FAIL) {
@@ -28,7 +25,7 @@
       string = read_char(READ_WHITESPACE);
     } else {
       printf("%c", string);
-      //string = read_char(READ_WHITESPACE);
+      string = read_char(READ_WHITESPACE);
     }
   } 
-} */
+}
